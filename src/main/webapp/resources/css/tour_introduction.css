@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/***/
+/****** 전체 페이지 기준 잡기 ******/
+/***/
+#wrap {
+  width: 100%;
+}
+
+/***/
+/****** 네비게이션 ******/
+/***/
+.nav_bar {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 72vw;
+  height: 15vh;
+}
+
+/* 로고 */
+.logo {
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+  display: inline-block;
+}
+
+#nav_mn {
+  float: right;
+  margin-top: 30px;
+}
+
+#nav_mn > li {
+  float: left;
+  margin-left: 20px;
+}
+
+/***/
+/****** 전체 게시물 박스 ******/
+/***/
+#contents_box {
+  margin: 0 auto;
+  width: 72vw;
+}
+
+#best_header {
+  font-size: 2em;
+  color: #333;
+  font-weight: 700;
+  margin: 3% 0 2% 2%;
+}
+
+#contents_box .notice {
+  width: 72vw;
+  height: 40vh;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1%;
+}
+
+#contents_box .notice > li {
+  float: left;
+  width: 16vw;
+  height: 35vh;
+  margin: 2% 1% 0 1.5%;
+  background-color: #fff;
+  /* 그림자 webkit */
+  -webkit-box-shadow: 3px 3px 5px #999;
+  border-radius: 10%;
+}
+#contents_box .notice > li:last-child {
+  margin-right: 0;
+}
+
+#contents_box .notice .best_top {
+  width: 100%;
+  height: 70%;
+/*   background-image: url(${path}resources/images/busan.jpeg); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+#contents_box .notice .best_bottom {
+  width: 100%;
+  height: 30%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  display: flex;
+}
+
+#contents_box .notice .bb_left {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+#contents_box .notice .bb_left > div {
+  border-radius: 50%;
+  width: 4vw;
+  height: 6.5vh;
+  margin: 0 auto;
+  margin-top: 5%;
+/*   background-image: url(${path}resources/images/profile.jpeg); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 3px 3px 5px #333;
+}
+#contents_box .notice .bb_left > a {
+  font-size: 0.8em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 1.5%;
+}
+
+#contents_box .notice .bb_right {
+  width: 68%;
+  height: 100%;
+  margin-left: 2%;
+  border-bottom-right-radius: 10%;
+  text-overflow: ellipsis;
+}
+
+#contents_box .notice .bb_right > h4 {
+  overflow: hidden;
+  font-size: 1.2em;
+  margin-top: 5%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 8%;
+}
+
+#contents_box .notice .bb_right .bbr_text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  padding-right: 5%;
+  color: #555;
+}
+
+#contents_box .notice .bb_right > p:last-child {
+  float: right;
+  font-size: 0.8em;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  padding-right: 7%;
+  color: #666;
+}
+
+#contents_box .normal_notice {
+  background-color: #fff;
+}
+
+#normal_header {
+  font-size: 2em;
+  color: #333;
+  font-weight: 700;
+  margin: 5% 0 0 2%;
+}
+
+#contents_box .normal_notice > li {
+  margin-bottom: 3%;
+}
+
+/***/
+/****** paging ******/
+/***/
+.paging > li > a {
+	/* color: #333; */
+}
+
+/***/
+/****** footer ******/
+/***/
+#foot {
+  width: 72vw;
+  height: 20vh;
+  background-color: #999;
+  margin: 0 auto;
+}
